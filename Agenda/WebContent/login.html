@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+<link href="CSS/Bootstrap.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="navbar navbar-default">
+			<h1>iContatos</h1>
+		</div>
+	</header>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4">
+				<div class="well">
+					<form action="Autentica" method="post">
+						<img class="img-circle" style="margin-bottom: 15px;"
+							src="imagens/if_Login_73221.png">
+						<div class="form-group">
+							<label for="txtEmail">E-mail:</label> <input class="form-control"
+								type="email" name="txtEmail">
+						</div>
+						<div>
+							<label for="txtSenha">Senha:</label> <input class="form-control"
+								type="password" name="txtSenha" required="required">
+						</div>
+						<br> <input class="btn btn-primary" type="submit"
+							value="Logar">
+						<p style="margin-top: 30px;">
+							Não possui cadastro? Cadastre-se <a href="novo_usuario.html">
+								aqui.</a>
+						</p>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
